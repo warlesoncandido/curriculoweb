@@ -1,0 +1,86 @@
+body{
+    background-image: url(../image/fundo.jpg);
+    position: absolute;
+    
+}
+
+#foto-perfil{
+
+
+    width: 250px;
+    border: 2px solid #ffa400;
+    border-radius: 30px;
+    transform: rotate(-15deg);
+    position: absolute;
+    top: 20px;
+
+}
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:transparent;
+    list-style:none;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 900px;
+    height: 20px;
+    border-radius: 10px;  
+}
+#menu ul li { 
+    display: inline; 
+      
+
+    
+}
+#menu ul li a {
+    
+    display: inline-block;
+    width: 150px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    padding-left:3px; 
+    
+
+    /* visual do link */
+    background-color:transparent;
+    color: #970690;
+    text-decoration: none;
+    border:3px solid #ffa400;
+    
+}
+#menu ul li a:hover{
+
+    
+    display: inline-block;
+    width: 150px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    padding-left:3px; 
+
+    /* visual do link */
+    background-color:#970690;
+    color: white;
+    text-decoration: none;
+    border-bottom:3px solid  #ffa400;
+    
+
+
+}
+.box{
+
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    height: 500px;
+    width: 900px;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    padding: 10px;
+    border: 1px  solid grey;
+    display:block;
+    margin-bottom: 10px;
+
+
+
+}
